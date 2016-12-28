@@ -1,0 +1,98 @@
+﻿#calendar {
+    position: relative;
+}
+.calendar-days {
+    position: absolute;
+    top: 137px;
+    left: 63px;
+    width: 270px;
+}
+#liderboard img {
+    width: 500px;
+    height: 650px;
+}
+#pop{position:absolute;left:5%;bottom:4%;}
+
+#calendar img{
+    width: 400px;
+    height: 650px;
+}
+#calendar img.calendar-days-image {
+    width: 278px;
+    height: auto;
+}
+.calendar-days ul li {
+    display: inline-block;
+    color: #655b4a;
+    width: 38px;
+    padding: 6px 0px;
+    text-shadow: 0px 0px 1px #655b4a;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.calendar-days ul li.out-from-month {
+    color: #a89f90;
+    text-shadow: 0px 0px 1px #a89f90;
+}
+.calendar-selected {
+    background: url("../imgs/calendar-day-selected.png") no-repeat;
+    background-size: 38px auto;
+    background-position: 1px 4px;
+    color: #ae7514 !important;
+}
+#liderboard {
+    position: relative;
+}
+.grid-list {
+    position: absolute;
+    color: #001ca9;
+    top: 102px;
+    left: 73px;
+    width: 400px;
+}
+.grid-list tr td,
+.grid-list tr th {
+    text-align: center;
+}
+.grid-list tr td:first-child,
+.grid-list tr th:first-child {
+    text-align: left;
+}
+.but{margin-left:50%;}
+#shabat_bon{ margin-top:100px;}
+#mtavar_prz{}
+#surati1{top:20%; }
+@media (max-width:1440px){
+	#logo_eu a img{width:250px;}
+	#surati1{width:1300px; }
+	}
+@media (max-width:1366px){
+	#logo_eu a img{width:250px;}
+	#surati1{width:1200px;margin-top:12%; }
+	#mtavar_prz{margin-top:50px;}
+	#shabat_bon{ margin-top:150px;}
+	}
+	@media (max-width:1280px){
+	#logo_eu a img{width:250px;}
+	#surati1{width:1200px; }
+	}
+	@media (max-width:1280px){
+	#logo_eu a img{width:250px;}
+	#surati1{width:1200px; }
+	}
+	@media (max-width:1024px){
+	#logo_eu a img{width:250px;}
+	#surati1{width:1000px; margin-top:15%}
+	}
+	@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	#logo_eu a img{width:200px;}
+	#surati1{width:800px; top:40%}
+	}
